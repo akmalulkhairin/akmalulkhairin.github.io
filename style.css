@@ -2,7 +2,7 @@
     color: #BDBFEF;
     font-size: 12px; 
     text-align: center;
-    font-family: helvetica, sans-serif; 
+    font-family: "futura", helvetica, sans-serif; 
     letter-spacing: -1px;
     text-transform: lowercase;
     text-shadow: 0 2px 0 black;
@@ -13,4 +13,11 @@
     /* you can even have multiple shadows separated by a comma! */
     line-height: 1.4;
     font-variant: small-caps;
+}
+
+div#center-logo {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
 }
